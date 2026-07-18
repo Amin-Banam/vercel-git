@@ -1,5 +1,5 @@
 
-![viewfinal](git_pic_store.png)
+![viewfinal](image.png)
 
 - [Demo Project](https://vercel-1e1pwsqgr-mohammadaminbanams-projects.vercel.app/)
 
