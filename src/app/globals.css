@@ -24,3 +24,52 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+@font-face {
+  font-family: 'giest';
+  src: url('/fonts/Geist-Regular.ttf');
+}
+.giest{
+  font-family: 'giest';
+}
+#product:hover  #psec2{
+  margin-left: 0px;
+}
+.s:hover>svg{
+background: white;
+fill: black;
+  transition: all 0.7s;
+}
+.s:hover p{
+  color: white;
+  transition: all 0.7s;
+}
+.s:hover path{
+fill: black ;
+transition: all 0.7s;
+}
+.borderGrid{
+  border: 1px solid #171717;
+}
+.before::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.212);
+/* border:; */
+}
+.after::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.212);
+}
+.burger_rot1{
+  transform: rotate(44deg);
+  /* rotate:; */
+transform-origin: left;
+transform: translateX(20%);
+}
